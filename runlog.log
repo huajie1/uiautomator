@@ -1,0 +1,1595 @@
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 2 source files to D:\work\uiAutomatorDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+adb server is out of date.  killing...
+* daemon started successfully *
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+1159 KB/s (4752 bytes in 0.004s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+uiAutomatorDemo.test:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testDemo:
+
+com.android.uiautomator.core.UiObjectNotFoundException: for text= "平安天下通"
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:125)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: for text= "平安天下通"
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:125)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 23.306
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+1160 KB/s (4752 bytes in 0.004s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+uiAutomatorDemo.test:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testDemo:
+
+com.android.uiautomator.core.UiObjectNotFoundException: for text= "平安天下通"
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:125)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: for text= "平安天下通"
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:125)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 21.82
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\work\uiAutomatorDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1160 KB/s (4752 bytes in 0.004s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+uiAutomatorDemo.test:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testDemo:
+
+com.android.uiautomator.core.UiObjectNotFoundException: for text= "平安天下通"
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:125)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: for text= "平安天下通"
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:125)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 20.998
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\work\uiAutomatorDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+1160 KB/s (4754 bytes in 0.004s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+uiAutomatorDemo.test:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testDemo:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CONTAINER=UiSelector[SCROLLABLE=true], PATTERN=UiSelector[INSTANCE=21, PATTERN=UiSelector[CLASS=android.widget.TextView]]]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:115)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CONTAINER=UiSelector[SCROLLABLE=true], PATTERN=UiSelector[INSTANCE=21, PATTERN=UiSelector[CLASS=android.widget.TextView]]]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:115)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 33.117
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\work\uiAutomatorDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1547 KB/s (4755 bytes in 0.003s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+uiAutomatorDemo.test:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testDemo:
+
+com.android.uiautomator.core.UiObjectNotFoundException: for text= "平安天下通"
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:125)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: for text= "平安天下通"
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:125)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 18.28
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\work\uiAutomatorDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1160 KB/s (4753 bytes in 0.004s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+uiAutomatorDemo.test:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testDemo:
+
+com.android.uiautomator.core.UiObjectNotFoundException: for text= "平安天下通"
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:125)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: for text= "平安天下通"
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:125)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 22.087
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\work\uiAutomatorDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+1114 KB/s (4567 bytes in 0.004s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+uiAutomatorDemo.test:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testDemo:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CONTAINER=UiSelector[SCROLLABLE=true], PATTERN=UiSelector[INSTANCE=23, PATTERN=UiSelector[CLASS=android.widget.TextView]]]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:115)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CONTAINER=UiSelector[SCROLLABLE=true], PATTERN=UiSelector[INSTANCE=23, PATTERN=UiSelector[CLASS=android.widget.TextView]]]
+
+	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:115)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 36.697
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to D:\work\uiAutomatorDemo\bin\classes
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+1470 KB/s (4517 bytes in 0.003s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+uiAutomatorDemo.test:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 5.54
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+1102 KB/s (4517 bytes in 0.004s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+uiAutomatorDemo.test:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+1469 KB/s (4517 bytes in 0.003s)
+INSTRUMENTATION_RESULT: shortMsg=java.lang.IllegalStateException
+
+INSTRUMENTATION_RESULT: longMsg=UiAutomationService android.accessibilityservice.IAccessibilityServiceClient$Stub$Proxy@42ed3118already registered!
+
+INSTRUMENTATION_CODE: 0
+
+Bus error 
+
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+1470 KB/s (4517 bytes in 0.003s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+uiAutomatorDemo.test:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testDemo:
+
+com.android.uiautomator.core.UiObjectNotFoundException: for text= "平安天下通"
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:125)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: for text= "平安天下通"
+
+	at com.android.uiautomator.core.UiCollection.getChildByText(UiCollection.java:125)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:214)
+
+	at com.android.uiautomator.core.UiScrollable.getChildByText(UiScrollable.java:189)
+
+	at uiAutomatorDemo.test.testDemo(test.java:35)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:235)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 11.21
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+error: device offline
+error: device offline
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+error: device offline
+error: device offline
+662 KB/s (4752 bytes in 0.007s)
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+error: device offline
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+error: device offline
+error: device offline
+Updated file D:\work\uiAutomatorDemo\build.xml
+Buildfile: D:\work\uiAutomatorDemo\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.6.2
+ [checkenv] Installed at D:\Java\adt-bundle-windows-x86_64-20140321\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.3
+     [echo] Resolving Build Target for uiAutomatorDemo...
+[getuitarget] Project Target:   Android 4.4.2
+[getuitarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: D:\work\uiAutomatorDemo\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into D:\work\uiAutomatorDemo\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: D:\work\uiAutomatorDemo\bin\uiAutomatorDemo.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+72 KB/s (4517 bytes in 0.061s)
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=
+
+uiAutomatorDemo.test:
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: class=uiAutomatorDemo.test
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: test=testDemo
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 6.154
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
